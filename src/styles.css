@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.door {
+  background-color: black;
+  width: 70px;
+  height: 150px;
+  margin-left: 240px;
+  margin-top: 120px;
+  position: absolute;
+  margin-bottom: 0;
+}
+.house {
+  background-color: gray;
+  width: 500px;
+  height: 270px;
+  margin-top: 50px;
+  position: relative;
+}
+.roof {
+  background-color: green;
+  height: 60px;
+  width: 500px;
+  position: absolute;
+}
