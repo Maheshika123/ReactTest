@@ -15,8 +15,8 @@ class App extends React.Component {
   }
 
   build() {
-    let roofcolor = prompt("Roof color?");
-    let doorcolor = prompt("Door color?");
+    let roofcolor = prompt(" Enter Roof color?");
+    let doorcolor = prompt("Enter Door color?");
     let House = this.state.house;
 
     House.push({ roofcolor, doorcolor });
